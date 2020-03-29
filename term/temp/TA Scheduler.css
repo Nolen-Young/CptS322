@@ -1,0 +1,18 @@
+body {
+	margin: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+	font-family: "Arial";
+	background-color: #c9f0ff;
+}
+
+table {
+	width: 100%;
+}
+
+tr ,table,td{
+
+	border: 1px solid black;
+	
+}

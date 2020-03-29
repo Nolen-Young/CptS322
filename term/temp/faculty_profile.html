@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="faculty_profile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/register.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				Register.start();
+			});
+		</script>
+</head>
+<body>
+<section class="Faculty">
+	<header>
+			<div class="Faculty-Header">
+				Faculty Page
+			</div>
+	</header>
+    <section class="Faculty-Info">
+	<div class="Contact-Header">
+		Contact Information:
+	</div>
+		<div class="forum">
+			First Name:
+			<input type="text" placeholder="First Name" class="first-name-input" name="First-Name" value=""/>
+		</div>
+		<div class="forum">
+			Last Name:
+			<input type="text" placeholder="Last Name" class="last-name-input" name="Last-Name" value=""/>
+		</div>
+		<div class="forum">
+			WSU ID:
+			<input type="text" placeholder="WSU ID" class="wsu-id-input" name="Wsu-Id" value=""/>
+		</div>
+		<div class="forum">
+			Email:
+			<input type="text" placeholder="Email" class="email-input" name="Student-Email" value=""/>
+		</div>
+		<div class="forum">
+			Phone Number:
+			<input type="text" placeholder="Phone Number" class="phone-number-input" name="Phone-Number" value=""/>
+		</div>
+	</section>
+	<section class="Course Teaching">
+	<div class="Course-Header">
+		Courses Teaching:
+	</div>
+	<select class="courses-input" name="courses">
+		<option value=1>CptS111</option>
+		<option value=2>CptS121</option>
+		<option value=3>CptS122</option>
+		<option value=4>CptS223</option>
+	</select>
+		<input type="Submit" class="add-course-input" value="Add Course">
+		</input>
+	<div>
+	<input type="Submit" class="submit-input" value="Save">
+	</input>
+	<input type="Submit" class="submit-input" value="Assign TA's">
+	</input>
+	</div>
+	</section>
+</section>
+</body>
+</html>

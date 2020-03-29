@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="student_profile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/register.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				Register.start();
+			});
+		</script>
+</head>
+<body>
+<section class="Student">
+	<header>
+			<div class="Student-Header">
+				Student Page
+			</div>
+	</header>
+    <section class="Student-Info">
+	<div class="Contact-Header">
+		Contact Information:
+	</div>
+	<div>
+	<div class="hidden-username">
+	1
+	</div>
+		<div class="forum">
+			First Name:
+			<input type="text" placeholder="First Name" class="first-name-input" name="First-Name" value = ""/>
+		</div>
+		<div class="forum">
+			Last Name:
+			<input type="text" placeholder="Last Name" class="last-name-input" name="Last-Name"/>
+		</div>
+		<div class="forum">
+			WSU ID:
+			<input type="text" placeholder="WSU ID" class="wsu-id-input" name="Wsu-Id"/>
+		</div>
+		<div class="forum">
+			Email:
+			<input type="text" placeholder="Email" class="email-input" name="Student-Email"/>
+		</div>
+		<div class="forum">
+			Phone Number:
+			<input type="text" placeholder="Phone Number" class="phone-number-input" name="Phone-Number"/>
+		</div>
+		<div class="forum">
+			Major:
+			<input type="text" placeholder="Major" class="major-input" name="Major"/>
+		</div>
+		<div class="forum">
+			Cumulative GPA:
+			<input type="text" placeholder="Cumulative GPA" class="gpa-input" name="GPA"/>
+		</div>
+		<div class="forum">
+			Expected Grad. Date:
+			<input type="text" placeholder="Expected Grad Date" class="grad-date-input" name="Grad-Date"/>
+		</div>
+		<div class="forum">
+			TA Before?
+			<select class="ta-before-input" name="TA-Before">
+				<option value=1>Yes</option>
+				<option value=2>No</option>
+			</select>
+		</div>
+	<input type="Submit" class="student-submit-input" value="Submit">
+	</input>
+	</div>
+	</section>
+	
+	<section class="Course Preferences">
+	<div class="Pref-Header">
+		Course Preferences:
+	</div>
+	<div>
+		<div class="forum">
+			Course Number:
+			<input type="text" placeholder="Course" class="course-number-input" name="First-Name" value=""/>
+		</div>
+		<div class="forum">
+			Grade Earned:
+			<input type="text" placeholder="Grade Earned" class="grade-earned-input" name="First-Name" value=""/>
+		</div>
+		<div class="forum">
+			Year & Semester Taken:
+			<input type="text" placeholder="Year/Semester Taken" class="year-taken-input" name="First-Name" value=""/>
+		</div>
+		<div class="forum">
+			Year & Semester Applied
+			<input type="text" placeholder="Year/Semester Applied" class="year-applied-input" name="First-Name" value=""/>
+		</div>
+		<div class="forum">
+			TA Before?
+			<select class="ta-before-2-input" name="TA-Before">
+				<option value=1>Yes</option>
+				<option value=2>No</option>
+			</select>
+		</div>
+		<input type="Submit" class="add-course-input" value="Add Course">
+		</input>
+	</div>
+	</section>
+	
+	<section class = "Applications">
+		<article class="application">
+			<table style = "width:100%">
+			<tr>
+				<th><div class = "course-col"> <div class = "course-t"> </div> </div></th>
+				<th><div class = "grade-col"> <div class = "grade-t"> </div> </div></th>
+				<th><div class = "year-taken-column"> <div class = "year-taken-t"> </div> </div></th>
+				<th><div class = "year-applied-column"> <div class = "year-applied-t"> </div> </div></th>
+				<th><div class = "ta-before-column"> <div class = "ta-before-t"> </div> </div></th>
+				<th><div class = "del-col"> <button class = "del"> Delete </button> <div class = "delete-t"> </div> </div> </th>
+			</tr>
+			</table>
+			<div class = "timestamp"> </div>
+		</article>
+
+		</div>
+	</section>
+</section>
+</body>
+</html>

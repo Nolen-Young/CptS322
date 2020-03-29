@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/register.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				Register.start();
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+<body>
+        <header>
+				<div class="register-page">
+					<form method="get" action="login.html">
+						<header>
+								
+								<div class="title-register">
+										Register
+								</div>
+						</header>
+						<section class="register-body">
+								<input type="text" placeholder="Email" class="email-register" name="email" />
+								<input type="text" placeholder="Password" class="password-register" name="password" />
+								<select class="status-input" name="status">
+									<option value=1>Student</option>
+									<option value=2>Instructor</option>
+								</select>
+								<input type="Submit" class="submit-input" value="Submit">
+								</input>
+						</section>
+					</form>
+				</div>
+        </header>
+		<section class="login-page">
+				<div class="title">
+						TA HELPER
+				</div>
+				
+				<div class="header">
+						Login
+				</div>
+				<input type="text" placeholder="Username" class="username-input" name="username" />
+				<input type="text" placeholder="Password" class="password-input" name="password" />
+				<input type="Submit" class="submit-input" value="Submit">
+				</input>
+				<input type="Submit" class="Register" value ="Register" />
+				<!--
+				<div class="Register">
+					<a class="register, my-button">Register</a>
+				</div>
+				-->
+				
+		</section>
+</body>
+</html>
